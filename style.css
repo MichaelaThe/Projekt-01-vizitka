@@ -1,3 +1,243 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+
+body{
+    margin: 0;
+    font-size: 19px;
+    font-family: 'Sora', sans-serif;
+    line-height: 1.5;
+}
+
+h1{
+    margin: 0;
+    font-size: 90px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    font-family: 'Berkshire Swash', cursive;
+    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.453);
+    background:url(fotky/green\ wallpaper.jpeg) center center no-repeat;
+    background-size: cover;
+    padding: 210px 30px;
+}
+
+.imageParent{
+    position: relative; 
+}
+
+.listy {
+    position: absolute;   
+    bottom: -190px;
+    width: 20%;
+    right: 40px;      
+}
+
+
+h2, h3, h4{
+    font-family:'Sora', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-align: center;
+    padding-top: 40px;
+    margin: 0;
+    padding-bottom: 10px;   
+}
+
+
+.menu li {
+    display: inline-block;
+    padding: 20px 20px;
+    font-size: 16px;
+    font-family: 'Sora', sans-serif;  
+   
+}
+
+ul{
+    text-align: center;
+    opacity: 80%;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    position: fixed;  
+    clear: both; 
+    z-index: 100; 
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    padding:5px 20px;
+}
+
+.menu a:hover{
+    background-color: #395144;
+    visibility:inherit;
+    border-radius: 5px;
+    transition: 0.65s;
+    color: white;
+}
+
+.omne img{
+    width: 20%;
+    border-radius:50%;
+    float: left;
+    margin: 0 30px 20px 0;
+}
+
+.omne p{
+    margin: 0;
+}
+
+.omne {
+    padding: 30px 15%;
+    background-color: #E9E5D6;
+    border-top: solid 2px black;
+    padding-bottom:100px;
+}
+
+.cesta_do_minulosti {
+    padding: 15px 15%;
+    background-color: #E9E5D6;
+}
+
+
+.cesta_do_minulosti img{
+     width: 32%;
+     border-radius: 10px;
+     border: solid 2px #61764B;   
+ }
+
+.cesta_do_minulosti, .stripky p{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.mujpartak{
+    background-color: whitesmoke;
+    padding: 30px 15%;
+}
+
+.fotky img{
+    width: 32%;
+}
+
+.fotky{
+    background-color:#CFB997;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.mujpartak p{
+    padding:10px;
+    background-color: #CFB997;
+    text-align: center;  
+    margin: 0;
+    border-radius: 20px;     
+}
+
+
+.stripky, .jak_to_zacalo, .jak_to_pokracovalo {
+    background-color: #9BA17B;
+    padding: 15px 15%;
+    overflow: auto;
+}
+
+.stripky {
+    padding: 30px 15%;
+}
+
+
+.stripky, .jak_to_pokracovalo p{
+    text-align: center;
+    
+}
+.jak_to_zacalo img{
+    float: left;
+    width: 30%;
+    margin-right: 30px;
+    margin-bottom: 23px;
+    border-radius: 5%;
+
+}
+.jak_to_zacalo p{
+    margin-bottom: 19px;
+    margin-top: 19px;
+}
+
+.fotky2 img{
+    width: 25%;
+    float: right;
+    padding: 10px 10px;
+}
+
+.para span{
+    font-family:'Sora', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+.kontakt, .ikony {
+    padding: 30px 15%;
+    background-color: #EDE4E0;
+}
+
+.kontakt a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.kontakt a:hover{
+    transition: 0.7s;
+    text-decoration: underline;
+    font-size: 20px;
+    
+}
+
+.kontakt img{
+    width: 190px;
+    height: auto;
+    float: right;
+    border-radius: 5%;
+}
+
+.instagram img{
+    width: 3.5%;
+}
+
+.facebook img{
+    width: 3.1%;
+}
+.linkedin img{
+    width: 3.2%;
+}
+
+.ikony img:hover{
+    width: 3.8%;
+    transition: 0.6s;
+}
+
+.ikony p{
+    text-align: center;
+    letter-spacing: 100px;
+    
+}
+footer{
+    padding: 20px ;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+
+}
+
